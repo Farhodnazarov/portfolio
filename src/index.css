@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: -100px;
+  z-index: 50;
+}
+
+.shadow-white {
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.5),
+    0 1px 3px rgba(255, 255, 255, 0.3);
+}
+
+.shadow-white-nav {
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2),
+    0 1px 3px rgba(255, 255, 255, 0.1);
+}
+
+#skil li {
+  cursor: pointer;
+}
