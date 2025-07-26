@@ -12,6 +12,7 @@ import { VscJson } from "react-icons/vsc";
 import { FaBootstrap } from "react-icons/fa6";
 import { SiShadcnui } from "react-icons/si";
 import bear from "../../public/images.jpg";
+import odinC from "../../public/odinimg.png";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiAntdesign } from "react-icons/si";
 
@@ -77,6 +78,9 @@ function Skills() {
         </li>
         <li className="flex items-center gap-3 font-semibold w-44 text-md px-5 shadow-white py-5 rounded-3xl bg-[#222] ">
           <img src={bear} alt="" className="w-8 h-8 rounded-full" /> Zustand
+        </li>
+        <li className="flex items-center gap-3 font-semibold w-44 text-md px-5 shadow-white py-5 rounded-3xl bg-[#222] ">
+          <img src={odinC} alt="" className="w-8 h-8 rounded-full" /> 1C
         </li>
         <li className="text-center font-semibold w-44 text-xl px-10 shadow-white py-5 rounded-3xl bg-[#222] ">
           Context
