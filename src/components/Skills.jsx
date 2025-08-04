@@ -83,11 +83,15 @@ function Skills() {
           <img src={odinC} alt="" className="w-8 h-8 rounded-full" /> 1C
         </li>
         <li className="text-center font-semibold w-44 text-xl px-10 shadow-white py-5 rounded-3xl bg-[#222] ">
+          Buxgalteriya
+        </li>
+        <li className="text-center font-semibold w-44 text-xl px-10 shadow-white py-5 rounded-3xl bg-[#222] ">
           Context
         </li>
         <li className="flex items-center gap-3 font-semibold w-44 text-xl px-10 shadow-white py-5 rounded-3xl bg-[#222] ">
           English
         </li>
+
         <li className="flex items-center gap-3 font-semibold w-44 text-xl px-10 shadow-white py-5 rounded-3xl bg-[#222] ">
           Russian
         </li>
