@@ -10,10 +10,10 @@ function Contact() {
       </h2>
       <div className="flex flex-col mb-10 gap-4 md:flex-row md:gap-20 md:mb-16 lg:flex-row justify-center lg:mb-24 lg:gap-32">
         <a
-          href="tel:+99891 671-67-66"
+          href="tel:+99893 646-67-66"
           className="md:text-xl lg:text-2xl cursor-pointer hover:underline hover:text-[#0079FF]"
         >
-          Phone number: +99891 671-67-66
+          Phone number: +99893 646-67-66
         </a>
         <a
           href="mailto:nazarovfarhod002@gmail.com"
