@@ -12,8 +12,13 @@ function About() {
           function seamlessly but also captivate users. I am always eager to
           embrace new technologies and techniques to enhance my craft.
         </p>
-        <div className="border shadow-white bg-[#222] border-spacing-2 px-20 h-60 flex justify-center items-center italic rounded-md">
-          <p className="w-24"> My certification will be added soon !!!</p>
+        <div className="">
+          {/* <p className="w-24"> My certification will be added soon !!!</p> */}
+          <img
+            className="w-60 h-80 border shadow-white bg-[#222] border-spacing-2 flex justify-center items-center  rounded-md"
+            src="./sertifikat2.jpeg"
+            alt=""
+          />
         </div>
       </div>
     </div>
