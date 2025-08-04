@@ -15,7 +15,7 @@ function About() {
         <div className="">
           {/* <p className="w-24"> My certification will be added soon !!!</p> */}
           <img
-            className="w-60 h-80 border shadow-white bg-[#222] border-spacing-2 flex justify-center items-center  rounded-md"
+            className="w-60 h-80 border shadow-white bg-[#222] border-spacing-2 flex justify-center items-center  rounded-xl"
             src="./sertifikat2.jpeg"
             alt=""
           />
