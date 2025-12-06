@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div className="px-10 mb-20">
       <h2 className="text-4xl font-bold mb-5 lg:mb-20 tracking-[4px] lg:text-5xl">
-        My Projectss
+        My Projects
       </h2>
       <ul className="flex flex-wrap gap-5 justify-center">
         <li className="flex flex-col items-center gap-5 shadow-white w-80 py-8 bg-[#222] rounded-xl">
