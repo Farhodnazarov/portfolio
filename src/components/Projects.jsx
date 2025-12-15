@@ -246,3 +246,8 @@ function Projects() {
 }
 
 export default Projects;
+
+{
+  /* <IoLogoVercel className="w-8 h-8" />
+              <span className="">Vercel</span> */
+}
