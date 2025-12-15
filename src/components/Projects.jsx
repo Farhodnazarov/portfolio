@@ -26,8 +26,7 @@ function Projects() {
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
-              <IoLogoVercel className="w-8 h-8" />
-              <span className="">Vercel</span>
+              See App
             </a>
           </div>
         </li>
@@ -49,8 +48,7 @@ function Projects() {
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
-              <IoLogoVercel className="w-8 h-8" />
-              <span className="">Vercel</span>
+              See App
             </a>
           </div>
         </li>
@@ -72,8 +70,7 @@ function Projects() {
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
-              <IoLogoVercel className="w-8 h-8" />
-              <span className="">Vercel</span>
+              See App
             </a>
           </div>
         </li>
@@ -93,8 +90,7 @@ function Projects() {
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
-              <IoLogoVercel className="w-8 h-8" />
-              <span className="">Vercel</span>
+              See App
             </a>
           </div>
         </li>
@@ -116,8 +112,7 @@ function Projects() {
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
-              <IoLogoVercel className="w-8 h-8" />
-              <span className="">Vercel</span>
+              See App
             </a>
           </div>
         </li>
@@ -139,8 +134,7 @@ function Projects() {
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
-              <IoLogoVercel className="w-8 h-8" />
-              <span className="">Vercel</span>
+              See App
             </a>
           </div>
         </li>
@@ -162,8 +156,7 @@ function Projects() {
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
-              <IoLogoVercel className="w-8 h-8" />
-              <span className="">Vercel</span>
+              See App
             </a>
           </div>
         </li>
@@ -185,8 +178,7 @@ function Projects() {
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
-              <IoLogoVercel className="w-8 h-8" />
-              <span className="">Vercel</span>
+              See App
             </a>
           </div>
         </li>
@@ -208,8 +200,7 @@ function Projects() {
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
-              <IoLogoVercel className="w-8 h-8" />
-              <span className="">Vercel</span>
+              See App
             </a>
           </div>
         </li>
@@ -223,8 +214,7 @@ function Projects() {
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
-              <IoLogoVercel className="w-8 h-8" />
-              <span className="">Vercel</span>
+              See App
             </a>
           </div>
         </li>
@@ -246,8 +236,7 @@ function Projects() {
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
-              <IoLogoVercel className="w-8 h-8" />
-              <span className="">Vercel</span>
+              See App
             </a>
           </div>
         </li>
