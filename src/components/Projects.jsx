@@ -78,7 +78,7 @@ function Projects() {
           <h3 className="text-xl font-bold md:text-2xl lg:text-3xl">Quiz</h3>
           <div className="flex gap-8">
             <a
-              href="https://github.com/Nazarovfarhod/Quiz.git"
+              href="https://github.com/Farhodnazarov/Farhod-s-quiz"
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
@@ -86,7 +86,7 @@ function Projects() {
               <span className="">GitHub</span>
             </a>
             <a
-              href="https://quiz-dusky-psi.vercel.app/"
+              href="https://farhod-s-quiz.vercel.app/"
               className="flex items-center gap-5 hover:text-[#0079FF] hover:underline transition-colors"
               target="_blank"
             >
