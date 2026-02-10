@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import { FaFileDownload } from "react-icons/fa";
+import SendMessageToEmail from "./components/SendMessageToEmail";
 
 function App() {
   return (
@@ -43,8 +44,12 @@ function App() {
         <div id="skills" className="text-center scroll-mt-28">
           <Skills />
         </div>
-        <div id="contact" className="text-center scroll-mt-28">
+        <div
+          id="contact"
+          className="text-center scroll-mt-28 flex justify-center gap-10"
+        >
           <Contact />
+          <SendMessageToEmail />
         </div>
       </div>
     </div>
