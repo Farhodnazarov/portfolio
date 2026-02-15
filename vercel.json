@@ -1,11 +1,4 @@
 {
   "source": "/(.*)",
-  "destination": "/index.html",
-  "rewrites": [{ "source": "/api/(.*)", "destination": "/api/$1" }],
-  "builds": [
-    {
-      "src": "api/**/*.js",
-      "use": "@vercel/node"
-    }
-  ]
+  "destination": "/index.html"
 }
