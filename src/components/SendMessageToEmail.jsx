@@ -1,3 +1,4 @@
+import { toast } from "sonner";
 import { sendResent } from "./SendResent";
 
 function SendMessageToEmail() {
@@ -8,16 +9,19 @@ function SendMessageToEmail() {
 
     try {
       await sendResent(data);
-      alert("Message sent!");
+      toast.success("Message sent!");
       e.target.reset();
     } catch {
-      alert("Error sending message");
+      toast.error("Error sending message");
     }
   };
 
   return (
     <div className="w-full px-14">
-      <form onSubmit={handleSubmit} className="w-full flex flex-col gap-3">
+      <form
+        onSubmit={handleSubmit}
+        className="w-full text-black flex flex-col gap-3"
+      >
         <div className="flex flex-col gap-2 items-start w-full">
           <label className="" htmlFor="name">
             Name :
@@ -65,7 +69,7 @@ function SendMessageToEmail() {
             name="message"
           />
         </div>
-        <button className="border-white border rounded-xl py-2 px-10 ml-auto shadow-lg shadow-white active:shadow-none">
+        <button className="border-white text-white border rounded-xl py-2 px-10 ml-auto shadow-lg shadow-white active:shadow-none">
           Send
         </button>
       </form>
