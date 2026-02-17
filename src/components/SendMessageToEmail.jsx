@@ -1,27 +1,7 @@
-import { toast } from "sonner";
-import { sendResent } from "./SendResent";
-
 function SendMessageToEmail() {
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    const data = Object.fromEntries(new FormData(e.target));
-
-    try {
-      await sendResent(data);
-      toast.success("Message sent!");
-      e.target.reset();
-    } catch {
-      toast.error("Error sending message");
-    }
-  };
-
   return (
     <div className="w-full px-14">
-      <form
-        onSubmit={handleSubmit}
-        className="w-full text-black flex flex-col gap-3"
-      >
+      <form className="w-full text-black flex flex-col gap-3">
         <div className="flex flex-col gap-2 items-start w-full">
           <label className="" htmlFor="name">
             Name :
