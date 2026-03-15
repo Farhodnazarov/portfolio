@@ -46,7 +46,7 @@ function App() {
         </div>
         <div
           id="contact"
-          className="text-center scroll-mt-28 flex justify-center gap-10"
+          className="text-center scroll-mt-28 flex justify-center items-center gap-10"
         >
           <Contact />
           <SendMessageToEmail />
