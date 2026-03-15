@@ -108,6 +108,7 @@ ${formData.message}
             className="w-full px-5 py-3 rounded-xl text-md font-semibold focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-800 text-white placeholder-gray-400 transition-all"
             type="text"
             name="userName"
+            autoComplete="none"
             value={formData.userName}
             onChange={handleChange}
             placeholder="Enter your Name"
@@ -120,6 +121,7 @@ ${formData.message}
             className="w-full px-5 py-3 rounded-xl text-md font-semibold focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-800 text-white placeholder-gray-400 transition-all"
             type="text"
             name="companyName"
+            autoComplete="none"
             value={formData.companyName}
             onChange={handleChange}
             placeholder="Enter your Company Name"
@@ -132,6 +134,7 @@ ${formData.message}
             className="w-full px-5 py-3 rounded-xl text-md font-semibold focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-800 text-white placeholder-gray-400 transition-all"
             type="email"
             name="email"
+            autoComplete="none"
             value={formData.email}
             onChange={handleChange}
             placeholder="Enter your Email"
@@ -143,6 +146,7 @@ ${formData.message}
           <textarea
             className="w-full px-5 py-3 rounded-xl text-md font-semibold focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-800 text-white placeholder-gray-400 transition-all resize-none"
             name="message"
+            autoComplete="none"
             value={formData.message}
             onChange={handleChange}
             placeholder="Write me your opinion"
