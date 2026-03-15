@@ -97,15 +97,16 @@ ${formData.message}
   };
 
   return (
-    <div className="w-full px-14">
+    <div className="w-full px-4 sm:px-8 md:px-14">
       <form
         onSubmit={handleSubmit}
-        className="w-full text-black flex flex-col gap-4 bg-gray-900 p-6 rounded-2xl shadow-xl"
+        className="w-full text-black flex flex-col gap-4 bg-gray-900 p-4 sm:p-6 md:p-8 rounded-2xl shadow-xl"
       >
+        {/* Name */}
         <div className="flex flex-col gap-2 items-start w-full">
           <label className="text-white font-medium">Name :</label>
           <input
-            className="w-full px-5 py-3 rounded-xl text-md font-semibold focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-800 text-white placeholder-gray-400 transition-all"
+            className="w-full px-4 py-2 sm:px-5 sm:py-3 rounded-xl text-md font-semibold focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-800 text-white placeholder-gray-400 transition-all"
             type="text"
             name="userName"
             autoComplete="none"
@@ -115,10 +116,11 @@ ${formData.message}
           />
         </div>
 
+        {/* Company Name */}
         <div className="flex flex-col gap-2 items-start w-full">
           <label className="text-white font-medium">Company Name :</label>
           <input
-            className="w-full px-5 py-3 rounded-xl text-md font-semibold focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-800 text-white placeholder-gray-400 transition-all"
+            className="w-full px-4 py-2 sm:px-5 sm:py-3 rounded-xl text-md font-semibold focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-800 text-white placeholder-gray-400 transition-all"
             type="text"
             name="companyName"
             autoComplete="none"
@@ -128,10 +130,11 @@ ${formData.message}
           />
         </div>
 
+        {/* Email */}
         <div className="flex flex-col gap-2 items-start w-full">
           <label className="text-white font-medium">Email Address :</label>
           <input
-            className="w-full px-5 py-3 rounded-xl text-md font-semibold focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-800 text-white placeholder-gray-400 transition-all"
+            className="w-full px-4 py-2 sm:px-5 sm:py-3 rounded-xl text-md font-semibold focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-800 text-white placeholder-gray-400 transition-all"
             type="email"
             name="email"
             autoComplete="none"
@@ -141,10 +144,11 @@ ${formData.message}
           />
         </div>
 
+        {/* Message */}
         <div className="flex flex-col gap-2 items-start w-full">
           <label className="text-white font-medium">Message :</label>
           <textarea
-            className="w-full px-5 py-3 rounded-xl text-md font-semibold focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-800 text-white placeholder-gray-400 transition-all resize-none"
+            className="w-full px-4 py-2 sm:px-5 sm:py-3 rounded-xl text-md font-semibold focus:outline-none focus:ring-2 focus:ring-purple-500 bg-gray-800 text-white placeholder-gray-400 transition-all resize-none"
             name="message"
             autoComplete="none"
             value={formData.message}
@@ -154,9 +158,10 @@ ${formData.message}
           />
         </div>
 
+        {/* Submit Button */}
         <button
           disabled={loading}
-          className="ml-auto px-10 py-3 rounded-2xl bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold shadow-lg shadow-purple-400/50 hover:scale-105 active:scale-95 transition-transform disabled:opacity-50 disabled:cursor-not-allowed"
+          className="ml-auto px-6 sm:px-10 py-2 sm:py-3 rounded-2xl bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold shadow-lg shadow-purple-400/50 hover:scale-105 active:scale-95 transition-transform disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {loading ? "Sending..." : "Send"}
         </button>
